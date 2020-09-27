@@ -46,6 +46,7 @@ const inLabTimeline = [
   experimentEnd(5000),
 ];
 
+// online just means not using electron aka in-browser
 const onlineTimeline = MTURK
   ? [
       experimentStart(),
@@ -69,7 +70,8 @@ const onlineTimeline = MTURK
     ]
   : // PROLIFIC VERSION OF THE TASK BELOW:
     [
-      experimentStart(),
+      // commented out for now/quick debugging:
+      // experimentStart(),
       userId(),
       preamble,
       bluePracticeInstructions(),
@@ -87,7 +89,7 @@ const onlineTimeline = MTURK
       taskBlock(exptBlock1),
       showPayment(5000, exptBlock1),
       buildCountdown(lang.countdown.redirect_to_prolific, 5),
-      redirectToProlific(lang.prolific.completion_code_url, 3),
+      redirectToProlific(),
     ];
 
 export const tl = ONLINE ? onlineTimeline : inLabTimeline;
