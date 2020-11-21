@@ -7,7 +7,7 @@
 [![Actions Status](https://github.com/lnccbrown/task-effort/workflows/Build%20at%20home%20version%20%28Windows%29/badge.svg)](https://github.com/lnccbrown/task-effort/actions)  
 ![Add App Installers to Release](https://github.com/lnccbrown/task-effort/workflows/Add%20App%20Installers%20to%20Release/badge.svg?branch=master)
 
-This repo contains the Effort task. It is a [jspsych](https://www.jspsych.org/) task built with React and Electron. This task uses the [Neuro Task Starter](https://www.github.com/brown-ccv/neuro-task-starter).
+This repo contains an older version of the Effort task. Please use the [newer version](https://github.com/TRiCAM-Lab/task-effort). It is a [jspsych](https://www.jspsych.org/) task built with React and Electron. This task uses the [Neuro Task Starter](https://www.github.com/brown-ccv/neuro-task-starter).
 
 ## TO RUN THE TASK - BEHAVIORAL ONLY
 Go to the releases tab (https://github.com/lnccbrown/task-effort/releases) and download the recent installer for your machine.
